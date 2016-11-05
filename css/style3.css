@@ -1,0 +1,12 @@
+body{ margin: 0;padding: 20px;}
+.clearfix:after{ content: '.';display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
+.box{ margin: 0 auto;padding: 20px;background-color: #eee;border: 1px solid #999;}
+
+.left{ float: left; padding: 20px;;width: 200px;border:1px solid #999;background-color: #fff;}
+.left img{ width: 80px;height: 80px;}
+.left p{ float: right;font-size: 20px;margin: 0 20px;}
+
+.right{ float: right;background-color: #fff;border: 1px solid #999;width: 120px;}
+.right img{ width: 80px;height: 80px;margin: 20px;}
+
+.middle{ margin:0 140px 0 260px;padding: 20px;background-color: #fff;border: 1px solid #999;}
