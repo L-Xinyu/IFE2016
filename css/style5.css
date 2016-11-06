@@ -1,0 +1,40 @@
+*{ margin: 0; padding: 0;}
+p{ margin: 20px 0;text-indent: 2em;line-height: 1.8;}
+.clearfix:after{ content: '.';display: block;clear: both;height: 0;overflow: hidden;visibility: hidden;}
+.head{ height: 65px; background-color: #444;}
+.logo_top{ float: left; margin-left: 40px; margin-top: 10px;width: 120px;}
+.r_list{ float: right;margin-right: 25px;padding-top: 25px;}
+.r_list ul li{ position: relative;float: left;margin-left: 30px;}
+.r_list ul li a{ text-decoration: none;color: #fff;} 
+
+.container{ background-color: #ddd; padding: 15px;}
+.container .left{ margin:0 360px 0 0;}
+.container .right{ float: right; width: 350px; height: 500px;} 
+.page{ margin: 5px;background-color: #fff;padding: 20px;border-bottom: 3px solid #787878;border-right:3px solid #686868;}
+
+.page .formTitle{ font-size: 16px;line-height: 2.5;color: #000;border-left:4px solid #ccc;padding-left: 15px;}
+.page .form1{ font-size: 12px;}
+.page .form1 div{ margin: 15px 0;}
+.page .form1 label{ display: inline-block;margin-right: 0.5%;width: 35%;text-align: right;vertical-align: top;}
+.page .form1 span{ margin-left: 35.5%;font-size: 12px;color: #ccc;}
+.page .form1 textarea{ width: 50%;height: 80px;}
+.btn{ width: 100%;display: block;margin:auto;margin-top: 30px;color: #fff;height: 45px;background-color: #0000FF;border: none;font-size: 14px;border-radius: 5px;box-shadow: 0 0 3px #0000FF;}
+
+.page img{ width: 300px;height: 200px;}
+.page h1{ font-size: 26px; line-height: 1.5;}
+.page h2{ font-size: 18px; line-height: 2.5;color: #808080;}
+.page h3{ font-size: 14px; line-height: 1.5;color: #808080;}
+.page ul{ margin: 20px 20px;}
+.page ul li{list-style: none;}
+.page ol{ margin: 20px 40px;}
+
+.tab table{ border: 1px solid #ccc; width:100%;border-collapse: collapse;text-align: left;}
+.tab thead{ color: #fff;background-color: black;}
+.tab tfoot{ background-color: #ccc;}
+.tab tfoot th,td{ font-weight: bold;}
+.tab th,td{ padding-left: 5px;font-weight: normal;}
+
+.pic{ float: left; width:150px;height:150px;padding: 10px;border:1px solid #ccc;margin: 10px 10px;text-align: center;}
+.pic img{ width: 100px;height: 100px;margin-top: 15px;}
+
+.footer{ color: #fff;background-color: black;text-align: center;line-height: 100px; height: 100px;}
