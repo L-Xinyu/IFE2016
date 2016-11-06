@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	  .all{ position: absolute;top: 50%;left: 50%;margin: 0 auto; transform: translate(-50%,-50%);}
+      .gray{ position: relative; height: 200px;width: 400px;background-color: #ccc;}
+      .yellow{ position: absolute;height: 50px;width: 50px;border-radius: 0 0 100% 0;background-color: yellow;}
+      .yellow2{ position: absolute;height: 50px;width: 50px;border-radius: 100% 0 0 0;background-color: yellow;bottom: 0;right: 0;}
+	</style>
+</head>
+<body>
+	<!-- 掌握position定位-relative参照物为元素本身absolute参照物为第一个定位祖先/根元素-->
+    <div class="all">
+	  <div class="gray">
+		<div class="yellow"></div>
+	    <div class="yellow2"></div>
+	  </div>
+    </div>
+</body>
+</html>
