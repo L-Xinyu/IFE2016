@@ -1,0 +1,64 @@
+*{ margin: 0;padding: 0;}
+body{ background-color: #44565C;}
+/*.clearfix:after{ content: '.';overflow: hidden;height: 0;display: block;clear: both;visibility: hidden;}*/
+.wrap{ width: 892px;height: 1386px;margin: 0 auto;background-color: #fff;padding: 0 44px;}
+
+.header{ position: relative;width: 892px;height: 61px;margin: 0 auto;border-bottom: 2px solid #938e8c;margin-bottom: 20px; }
+.icon{ position: relative;background-color: #CC3366;width: 110px;height: 61px;}
+.icon p{ position: absolute;color: #fff;font: 12px "黑体";left: 0;bottom: 2px;}
+.header span{ position: absolute;color: #d45d5c;font: 12px "黑体";right: 0;bottom: 2px;}
+
+.top{ position: relative;}
+.pic img{ width: 640px;height: 300px;border: 1px solid #ccc;}
+.txt1{ position: absolute;width: 203px;top: 0;right: 0;}
+.txt1 hr{ border:2px solid #cc8091;}
+.txt1 h2{ font-size: 24px;color: #000000;font-family: "微软雅黑";text-decoration: underline;line-height: 40px;font-weight: normal;}
+.txt2{ font-size: 12px;color: #676767;font-family: "楷体";line-height: 10px;}
+.num{ position: absolute; font-size: 116px;color: #75b86b;font-family: "微软雅黑";font-style: italic;}
+.num2_1{ position: absolute;font-size: 55px;color: #cc8091;font-family: "微软雅黑";top: 240px;}
+.num2_2{ position: absolute;font-size: 21px;color: #cc8091;font-family: "微软雅黑";top: 260px;left: 80px;}
+.num2_3{ position: absolute;font-size: 12px;color: #cc8091;font-family: "微软雅黑";top: 288px;left: 80px;}
+
+.middle{ width: 641px;margin: 20px 0;}
+.what{ float: left;width: 220px; margin-right: 20px;}
+.what h3{ font-size: 16px;color: #418c59;font-family: "微软雅黑";font-weight: bold;text-decoration: underline;}
+.what p{ font-size: 12px;color: #767777;font-family: "宋体";line-height: 16px;}
+.when{ float: left;width: 210px; margin-right: 20px;}
+.when h3{ font-size: 16px;color: #d2994f;font-family: "微软雅黑";font-weight: bold;text-decoration: underline;}
+.when p{ font-size: 12px;color: #767777;font-family: "宋体";line-height: 16px;opacity: 30%;}
+.how{ float: left;width: 170px;}
+.how h3{ font-size: 16px;color: #cc7680;font-family: "微软雅黑";font-weight: bold;text-decoration: underline;}
+.how p{ font-size: 12px;color: #767777;font-family: "宋体";line-height: 16px;opacity: 30%;}
+
+.cien{ margin-top: 20px;}
+.cien p{ font-size: 12px;color: #231815;font-family: "微软雅黑";line-height: 16px;opacity: 30%;}
+.cien span{ font-size: 12px;color: #cd4a48;font-family: "微软雅黑";line-height: 16px;opacity: 30%;font-style: italic;}
+
+.left{ float: left; margin-top: 60px;margin-bottom: 40px; width: 415px;}
+.left >h2>span{ font-size: 72px;color: #f5e327;font-family: "黑体";font-weight: bold;font-style: italic;}
+.left h2{ font-size: 42px;color: #11456b;font-family: "黑体";font-weight: bold;line-height: 42px;}
+.left h3{ font-size: 34px;color: #11456b;font-family: "黑体";font-weight: bold;margin-bottom: 20px;}
+.left hr{ width: 415px;height: 2px;color: #11456b;margin-bottom: 20px;}
+.front{ font-size: 12px;color: #767777;font-family: "宋体";line-height: 16px;}
+.front span{ float: left; font-size: 70px;color: #f5e327;font-family: "微软雅黑";padding: 20px 10px 30px 0;}
+.left img{ float: right; width: 226px;height: 300px;padding: 15px;}
+
+.right{ float: right;margin-top: 60px; width: 458px;}
+.r-pic img{ width: 458px;height: 275px;}
+.r-txt{ width: 459px;height: 318px;background-color: #eeedd6;margin-top: 40px;}
+/*.r-txt{ position: relative;}*/
+.r-txt span{float: left;}
+.r-txt1{ font-size: 16px;color: #5a5b5b;font-family: "宋体";text-align: left;line-height: 20px;margin:20px 0 0 50px;}
+.r-txt2{ font-size: 12px;color: #5a5b5b;font-family: "宋体";text-align: right;line-height: 20px;font-style: italic;margin-top:20px;}
+
+.r-back{ float: left; width: 260px;height: 160px;background-color: #d45d5c;margin-top: 38px;}
+
+/*.r-hello{ float: right; width: 180px;height: 160px;margin-top: 38px;}
+.r-hello{ font: italic 14px/16px "SimHei";color: #5a5b5b;}
+.r-hello h2{ float: left;margin: -18px 10px 0 -40px;height: 30px;font: 72px "黑体";color: #d45d5c;}
+*/
+
+.footer{clear: both;width: 892px;height: 59px;border-top: 1px solid #938e8c;}
+.ife_url{float: right;font: 12px "黑体";color: #d45d5c;}
+
+
