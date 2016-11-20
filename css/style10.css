@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 20px;
+}
+li{
+    list-style: none;
+}
+
+@media(min-width: 640px){
+ .flex-container {
+    display: flex;
+    /*新flex属性兼容性*/
+    display: -webkit-flex;
+    /*“flex-direction”和“flex-wrap”属性的缩写*/
+    flex-flow: row wrap;
+    /*定义伸缩项目沿着主轴线的对齐方式*/
+    justify-content: space-between;
+    /*令元素居中放置*/
+    align-items:center;
+  }
+ .flex-item {
+    margin-top: 20px;
+    width: 148px;
+    border: 1px solid #f00;
+  }
+ .item1{
+    height: 118px;
+  }
+ .item2{
+    height: 98px;
+  }
+ .item3{
+    height: 38px;
+  }
+ .item4{
+    height: 198px;
+    border: 1px solid #00f;
+  }
+}
+
+@media(max-width: 640px){
+  .flex-container {
+  	display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items:flex-start;
+  }
+  .flex-item {
+    margin-top: 20px;
+    width: 148px;
+    border: 1px solid #f00;
+  }
+ .item1{
+    height: 118px;
+  }
+ .item2{
+    height: 98px;
+  }
+ .item3{
+    height: 38px;
+  }
+ .item4{
+    height: 198px;
+    border: 1px solid #00f;
+    /*order 控制伸缩项目在他们的伸缩容器出现的顺序*/
+    order:-1;
+  }
+}
